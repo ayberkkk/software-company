@@ -1,0 +1,19 @@
+#features {
+    padding: 100px 0 100px 0;
+}
+
+#features .title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#features .title h2 {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0b163f;
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+}
+#features .title p {
+
+}

@@ -1,0 +1,389 @@
+header {
+    position: sticky;
+    z-index: 100;
+    padding: 30px 0px;
+    top: 0px;
+    background-color: transparent;
+}
+
+header .container {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+    border-radius: 10px;
+    transition: 0.4s;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out
+}
+
+header .container .row {
+    padding: 10px;
+    justify-content: center;
+}
+
+header.sticky {
+    top: -28px;
+    transition: 0.4s;
+}
+header.sticky .container {
+    max-width: 100%;
+}
+
+header .company {
+    display: flex;
+    align-items: center;
+}
+
+header .company-logo {
+    width: 100%;
+    height: auto;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header .menu-item {
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+header .menu-item a {
+    position: relative;
+    white-space: nowrap;
+    color: #343f79;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+header .menu-item a:hover {
+    color: #3f78e0;
+}
+
+header .dropMenu {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .menu-item:hover a:after {
+    width: 100%;
+}
+
+header .menu-item a.toggle:after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+
+header .menu .menu-content .menu-ul .company-mobil {
+    display: none;
+}
+
+header .menuToggle {
+    display: none;
+}
+
+header .menu-ul .mobile-contact-li {
+    display: none;
+}
+
+header .search-li-mobile {
+    display: none;
+}
+
+header .icon-down1 {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+header .sub {
+    min-width: 300px;
+}
+
+header .sub-content {
+    background-color: var(--background-color-2);
+}
+
+header .sub-content .sub-item a {
+    color: #fff;
+    font-size: 17px;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+header .sub-content .sub-item a:hover {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+header .sub-item a .icon-right {
+    font-size: 10px;
+    margin-right: 7px;
+    color: #fff;
+}
+
+header .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .soclias-ul {
+    display: flex;
+}
+
+header .soclias-ul li {
+    margin: 10px;
+}
+
+header .soclias-ul li a i {
+    font-size: 15px;
+    display: inline-block;
+    color: #343f79;
+    margin-top: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+header .soclias-ul li a i:hover {
+    transform: translateY(-0.15rem);
+}
+
+header .socials-mobile {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    header {
+        -webkit-box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
+        -moz-box-shadow: 0 0 15px 5px rgba(0, 0, 0, .08);
+        box-shadow: 0 0 15px 5px rgb(0 0 0 / 8%);
+        background-color: #fff;
+        padding: 0px;
+    }
+
+    header .container .row {
+        justify-content: start !important;
+        padding: 0px;
+    }
+
+    header .mobile-menu-span {
+        margin-top: 20px;
+    }
+
+    header .mobile-logo-content {
+        display: flex;
+    }
+
+    header .mobile-logo-content ul {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    header .mobile-logo-content ul li {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    header .menu-left,
+    .socials {
+        display: none !important;
+    }
+
+    header .company {
+        display: flex;
+        align-items: center;
+    }
+
+    header .company-logo {
+        display: flex;
+        width: 20%;
+        height: auto;
+        margin-top: 0px;
+        padding: 5px;
+    }
+
+    header .menuToggle {
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        z-index: 15;
+        display: block;
+        color: #111;
+        font-size: 18px;
+    }
+
+    header .menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+        -webkit-box-shadow: 0 0 15px 5px rgb(0 0 0 / 5%);
+        -moz-box-shadow: 0 0 15px 5px rgba(0, 0, 0, .05);
+        box-shadow: 0 0 15px 5px rgb(0 0 0 / 5%);
+        display: block;
+        z-index: 15;
+        margin-left: -100%;
+    }
+
+    header .menu .menu-content {
+        width: 100%;
+    }
+
+    header .menu .menu-content .row .menu-ul {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        display: block;
+        line-height: 50px;
+    }
+
+    header .menu-ul .mobile-contact-li ul li .icon-phone,
+    .icon-mail1,
+    .icon-marker {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    header .menu-ul .mobile-contact-li .contact {
+        padding-right: 5px;
+    }
+
+    header .menu-ul .mobile-contact-li .maps {
+        padding-left: 5px;
+    }
+
+    header .menu-ul .mobile-contact-li .contact a {
+        width: 100%;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        color: #fff;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+        background-color: #ff7657;
+    }
+
+    header .menu-ul .mobile-contact-li .maps a {
+        width: 100%;
+        white-space: nowrap;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        color: #fff;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+        background-color: #212e48;
+        border-radius: 10px;
+    }
+
+    header .menu-ul .mobile-contact-li .maps a .icon-marker {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    header .menu .menu-content .menu-ul .company-mobil {
+        display: block !important;
+    }
+
+    header .company-mobil .mobile-logo {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header .menu-item {
+        padding-left: 5px;
+        border-bottom: 1px solid;
+        border-color: rgba(0, 0, 0, .08)
+    }
+
+    header .menu-item a {
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #27346d;
+    }
+
+    header .sub-content .sub-item a {
+        padding: 0px;
+        padding-left: 10px;
+    }
+
+    header .drop .sub {
+        top: 0px !important;
+    }
+
+    header .btn-download {
+        padding-top: 15px;
+        display: table;
+        width: initial;
+        margin: auto;
+    }
+
+    header .btn-download a {
+        line-height: 20px;
+    }
+
+    header .socials-mobile {
+        display: block;
+    }
+
+    header .soclias-ul-mobile {
+        display: flex !important;
+        font-size: 18px;
+        color: #343f79;
+    }
+
+    header .soclias-ul-mobile li a i {
+        padding: 5px;
+    }
+
+}

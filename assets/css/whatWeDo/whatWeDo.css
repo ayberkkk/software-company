@@ -1,0 +1,26 @@
+#whatWeDo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#whatWeDo img {
+    border-radius: 10px;
+}
+
+#whatWeDo .card {
+    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07) !important;
+}
+
+#whatWeDo .card .card-inner {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+#whatWeDo h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: #343f52;
+}

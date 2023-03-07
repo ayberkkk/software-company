@@ -1,0 +1,140 @@
+#headline {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+#headline h2 {
+    font-size: 48px;
+    font-weight: 800 !important;
+    color: #343f52;
+    padding: 20px;
+}
+
+#headline p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #60697b;
+    padding-top: 10px;
+    padding: 20px;
+}
+
+#headline .interaction {
+    display: table;
+    width: initial;
+    margin: auto;
+    padding-top: 10px;
+    padding: 20px;
+}
+
+#headline ul {
+    display: flex;
+}
+
+
+#headline .projects {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 6px 30px 6px !important;
+    line-height: 35px;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background: rgba(63, 120, 224, .7);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+#headline .projects:hover {
+    background-color: #006aff67;
+    color: #ffff;
+    transform: translateY(-0.15rem);
+    box-shadow: 0 0.25rem 0.75rem rgb(30 34 40 / 15%);
+}
+
+#headline .contact {
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid;
+    border-color: rgba(63, 120, 224, .7);
+    border-radius: 25px;
+    padding: 6px 30px 6px;
+    color: rgba(63, 120, 224, .7);
+    line-height: 35px;
+    margin-left: 10px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+#headline .contact:hover {
+    background: rgba(63, 120, 224, .7);
+    color: #fff;
+    transform: translateY(-0.15rem);
+    box-shadow: 0 0.25rem 0.75rem rgb(30 34 40 / 15%);
+}
+
+#headline .icon-play3 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #c0c0c5;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+#headline .top-clients {
+    margin-top: 20px;
+}
+
+#headline .top-clients p {
+    font-weight: 600;
+}
+
+#headline img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:992px) {
+    #headline {
+        padding: 50px 0 50px 0;
+    }
+
+    #headline h2 {
+        font-size: 26px;
+    }
+
+    #headline p {
+        font-size: 18px;
+    }
+
+    #headline .request {
+        padding: 0px 7px 0px !important;
+    }
+
+    #headline .watch {
+        padding: 0px 7px 0px !important;
+    }
+
+    #headline .icon-play3 {
+        line-height: 38px;
+        font-size: 18px;
+    }
+}
