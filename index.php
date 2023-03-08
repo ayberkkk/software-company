@@ -22,6 +22,8 @@
       <content class="content">
          <? include 'modules/headline.php'; ?>
          <? include 'modules/what_we_do.php'; ?>
+         <? include 'modules/community.php'; ?>
+         <? include 'modules/slider.php'; ?>
       </content>
    </main>
    <? //include 'modules/layouts/footer.php'; 

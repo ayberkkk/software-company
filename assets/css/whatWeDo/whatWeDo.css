@@ -6,10 +6,24 @@
 
 #whatWeDo img {
     border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+
+#whatWeDo .img-2 {
+    margin-top: 20px;
 }
 
 #whatWeDo .card {
+    border: none;
+    border-radius: 10px;
     box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07) !important;
+    height: 100%;
+}
+
+#whatWeDo .card-mt {
+    margin-top: 20px !important;
 }
 
 #whatWeDo .card .card-inner {
@@ -18,9 +32,106 @@
     color: var(--bs-card-color);
 }
 
+#whatWeDo .card .card-inner .icon-phone,
+.icon-design1 {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #747ed1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9eaf8;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
 #whatWeDo h4 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 700;
     color: #343f52;
+    word-spacing: 0.1rem;
+    letter-spacing: -.01rem;
+}
+
+#whatWeDo p {
+    margin-bottom: 0.5rem !important;
+    font-size: 16px;
+}
+
+#whatWeDo .card .card-inner a {
+    position: relative;
+    font-weight: 700;
+    letter-spacing: -.01rem;
+    color: #747ed1;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+}
+
+#whatWeDo .wwwd {
+    display: flex;
+}
+
+#whatWeDo .content-wwd {
+    display: table;
+    width: initial;
+    margin: auto;
+    margin-left: 20px;
+    padding: 50px;
+    text-align: left;
+}
+
+#whatWeDo .content-wwd h2 {
+    font-size: 25;
+    color: #343f52;
+    font-weight: 700;
+}
+
+#whatWeDo .content-wwd .content-desc {
+    font-size: 19px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#whatWeDo .content-wwd .content-desc-2 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#whatWeDo .more-details {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 6px 30px 6px !important;
+    line-height: 35px;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background: rgba(63, 120, 224, .7);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    margin-top: 20px;
+}
+
+#whatWeDo .more-details:hover {
+    background-color: #006aff67;
+    color: #ffff;
+    transform: translateY(-0.15rem);
+    box-shadow: 0 0.25rem 0.75rem rgb(30 34 40 / 15%);
+}
+
+@media screen and (max-width:992px) {
+    #whatWeDo .content-wwd {
+        text-align: left;
+        padding: 20px;
+        margin-left: 0px;
+    }
 }

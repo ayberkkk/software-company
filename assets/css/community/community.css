@@ -1,0 +1,91 @@
+#community {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#community .community-content {
+    text-align: left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#community .community-content h2 {
+    font-size: 25px;
+    color: #343f52;
+    font-weight: 700;
+}
+
+#community .community-content .content-desc {
+    font-size: 19px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#community .community-content .content-desc-2 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#community .community-ul-1 {
+    display: flex;
+}
+
+#community .community-ul-1 li {
+    margin-left: 20px;
+}
+
+
+#community .icon {
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+#community .icon-maske1 {
+    background-color: #e9eaf8;
+    color: #747ed1;
+}
+
+#community .icon-camera1 {
+    background-color: #fae6e7;
+    color: #e2626b;
+}
+
+#community .icon-users {
+    background-color: #fef3e4;
+    color: #fab758;
+}
+
+#community .icon-chart {
+    background-color: #e4f1f6;
+    color: #54a8c7;
+}
+
+#community .card {
+    border-radius: 10px;
+}
+
+#community .card-body {
+    padding: 15px !important;
+}
+
+#community .card-body .name {
+    color: #343f52;
+}
+
+#community .card-body .name-desc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#community .name-content-2 {
+    margin-left: 20px;
+}
