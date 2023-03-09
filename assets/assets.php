@@ -5,7 +5,7 @@
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;400;700;800&family=Manrope:wght@400;500;600;700;800&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- Fonts End -->
 <!-- Css -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">

@@ -6,7 +6,6 @@
                 <div class="community-content">
                     <h2>
                         Join Our Community
-
                     </h2>
                     <p class="content-desc">
                         We have considered our business solutions to support you on every stage of your growth.

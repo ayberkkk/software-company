@@ -65,7 +65,6 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, 0));
     --bs-root-font-size: 20px;
-    --bs-body-font-family: var(--bs-font-sans-serif);
     --bs-body-font-size: 0.8rem;
     --bs-body-font-weight: 500;
     --bs-body-line-height: 1.7;
@@ -88,6 +87,7 @@
     --bs-highlight-bg: #fef1de;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -108,6 +108,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     background-color: #f5f5fc !important;
+    font-family: 'Manrope', sans-serif;
 
 }
 
@@ -171,6 +172,12 @@ body .content {
 .show {
     display: block !important;
     opacity: 1 !important
+}
+
+.center-x {
+    display: table;
+    width: initial;
+    margin: auto;
 }
 
 .navbar {

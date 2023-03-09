@@ -6,7 +6,7 @@
 				<div class="col-2 company">
 					<i class="icon icon-menu-left menuToggle"></i>
 					<div class="company-logo">
-						<img class="img-fluid" src="./assets/img/logo.png">
+						<img class="img-fluid center-x" src="./assets/img/logo.png">
 					</div>
 				</div>
 				<div class="col menu">
@@ -40,27 +40,27 @@
 											</li>
 										</ul>
 									</div>
-									<li class="col-auto menu-item">
+									<li class="col-auto menu-item hover-underline-animation">
 										<a class="toggle" href="#features">
 											Home
 										</a>
 									</li>
-									<li class="col-auto menu-item">
+									<li class="col-auto menu-item hover-underline-animation">
 										<a class="toggle" href="#whymosto">
 											Services
 										</a>
 									</li>
-									<li class="col-auto menu-item">
+									<li class="col-auto menu-item hover-underline-animation">
 										<a class="toggle" href="#card">
 											About
 										</a>
 									</li>
-									<li class="col-auto menu-item">
+									<li class="col-auto menu-item hover-underline-animation">
 										<a class="toggle" href="#plans">
 											Pricing
 										</a>
 									</li>
-									<li class="col-auto menu-item">
+									<li class="col-auto menu-item hover-underline-animation">
 										<a class="toggle" href="#testimonials">
 											Pages
 										</a>

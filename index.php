@@ -24,6 +24,7 @@
          <? include 'modules/what_we_do.php'; ?>
          <? include 'modules/community.php'; ?>
          <? include 'modules/slider.php'; ?>
+         <? include 'modules/choose.php'; ?>
       </content>
    </main>
    <? //include 'modules/layouts/footer.php'; 
