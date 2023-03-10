@@ -2,47 +2,62 @@
 <section id="choose" class="choose">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 d-none d-lg-block">
-                <img class="img-fluid" src="assets/img/i9.png">
-            </div>
-            <div class="col-lg-5 col-12 choose-div">
+            <div class="col-lg-5 col-12">
                 <div class="choose-content">
                     <h2>
-                        Have Perfect Control
+                        Why Choose Us?
                     </h2>
-                    <p class="choose-p ">
-                        We are focused on establishing long-term relationships with customers.
+                    <p>
+                        Find out everything you need to know about creating a business process model.
                     </p>
-                    <p class="choose-p-2">
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-                    </p>
-                    <div class="row">
-                        <div class="preferencs d-flex">
-                            <div class="preferencs-div d-flex">
-                                <i class="icon icon-checked-mark1"></i>
-                                <p>
-                                    Aenean quam ornare. Curabitur blandit.
-                                </p>
-                                <i class="icon icon-checked-mark1"></i>
-                                <p>
-                                    Aenean quam ornare. Curabitur blandit.
-                                </p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Professional Design
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="preferencs d-flex">
-                            <div class="preferencs-div d-flex">
-                                <i class="icon icon-checked-mark1"></i>
-                                <p>
-                                    Aenean quam ornare. Curabitur blandit.
-                                </p>
-                                <i class="icon icon-checked-mark1"></i>
-                                <p>
-                                    Aenean quam ornare. Curabitur blandit.
-                                </p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Top-Notch Support
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Header and Slider Options
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-7 d-lg-block d-none">
+                <img class="img-fluid" src="assets/img/i17.png">
             </div>
         </div>
     </div>

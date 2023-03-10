@@ -8,59 +8,61 @@
     height: auto;
 }
 
-#choose .choose-div {
-    display: flex;
-}
-
 #choose .choose-content {
-    display: table;
-    width: initial;
-    margin: auto;
-    margin-left: 20px;
     padding: 50px;
     text-align: left;
 }
 
-#choose h2 {
+#choose .choose-content h2 {
+    font-size: 25;
     color: #343f52;
     font-weight: 700;
 }
 
-#choose .choose-p {
+#choose .choose-content p {
     font-size: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
     line-height: 1.5;
 }
 
-#choose .choose-p-2 {
-    font-size: 17px;
-    font-weight: 500;
+.accordion-item {
+    border: none !important;
+    border-radius: 0px;
 }
 
-#choose .icon {
-    text-decoration: none;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    font-size: 15px;
-    line-height: 15px;
-    padding: 5px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:8px;
-    border-radius: 50%;
-    background-color: #e6e8f7;
+.accordion-item {
+    background-color: transparent !important;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    font-size: 20px;
+    color: #343f52;
+    font-weight: 700;
+}
+
+.accordion-button:hover {
+    color: #747ed1 !important;
+}
+
+.accordion-button h2 button {
+    font-size: 20;
+    color: #343f52;
+    font-weight: 700;
+}
+
+.accordion-button:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-body p {
+    font-size: 15px !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5;
     color: #343f52;
 }
-#choose .preferencs-div>p {
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 500;
-}
 
-@media screen and (max-width:992px) {
-    .choose-content {
-        padding: 20px !important;
-    }
+.accordion-button:not(.collapsed) {
+    color: #343f52 !important;
 }

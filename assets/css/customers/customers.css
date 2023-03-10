@@ -1,0 +1,86 @@
+#customers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#customers h2 {
+    color: #343f52;
+    font-weight: 700;
+    text-align: center;
+}
+
+#customers .card {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+#customers .card .quotes {
+    position: absolute;
+    content: "”";
+    top: 15px;
+    right: 15px;
+    z-index: -1;
+}
+
+#customers .card .quotes img {
+    opacity: 0.1;
+    width: 50px;
+    height: auto;
+}
+
+#customers .customers-content {
+    padding-top: 50px;
+}
+
+#customers .card .customer-card {
+    padding: 20px;
+}
+
+#customers .customer-star {
+    margin-bottom: 20px;
+}
+
+#customers .customer-star .icon-star {
+    color: #fcc032;
+}
+
+#customers .customer-card {
+    font-size: 16px;
+    color: #343f52;
+    font-weight: 500;
+}
+
+#customers .customer-card .customer-comment {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#customers .customers-img img {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#customers .customer-card .name {
+    font-size: 16px;
+}
+
+#customers .customer-card .name-desc {
+    font-size: 14px;
+    font-weight: 500;
+    color: #343f52;
+}
+
+@media screen and (max-width:992px) {
+    #customers .customers-content {
+        padding-top: 0px;
+    }
+    #customers .card {
+        margin-top: 10px;
+    }
+}

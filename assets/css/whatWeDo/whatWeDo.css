@@ -93,7 +93,7 @@
 
 #whatWeDo .content-wwd .content-desc {
     font-size: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
     line-height: 1.5;
 }
 

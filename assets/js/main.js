@@ -9,7 +9,6 @@ jQuery(document).ready(function ($) {
   var bannerh = $("#manset").outerHeight(); //
 
   /* Hesaplamalar End */
-
   ////////////////// Classlar //////////////////
 
   /*----- Window Height -----*/
@@ -143,5 +142,3 @@ jQuery(document).ready(function ($) {
 /*---------- Sayfa yeniden boyutlandırma durumunda çalışacak scriptler ----------*/
 jQuery(window).resize(function () { });
 /*---------- Sayfa yeniden boyutlandırma durumunda çalışacak scriptler End ----------*/
-
-

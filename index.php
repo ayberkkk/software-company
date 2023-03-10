@@ -24,7 +24,10 @@
          <? include 'modules/what_we_do.php'; ?>
          <? include 'modules/community.php'; ?>
          <? include 'modules/slider.php'; ?>
+         <? include 'modules/perfect.php'; ?>
          <? include 'modules/choose.php'; ?>
+         <? include 'modules/customers.php'; ?>
+         <? include 'modules/contact.php'; ?>
       </content>
    </main>
    <? //include 'modules/layouts/footer.php'; 
