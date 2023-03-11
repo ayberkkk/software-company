@@ -1,0 +1,67 @@
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .community {
+    width: 100%;
+}
+
+footer .community h2 {
+    color: #343F52;
+    font-size: 27px;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: -.2px;
+}
+
+footer .community p {
+    color: #60697B;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+footer .community a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 6px 30px 6px !important;
+    line-height: 35px;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background: rgba(63, 120, 224, .7);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+footer .community a:hover {
+    background-color: #006aff67;
+    color: #ffff;
+    transform: translateY(-0.15rem);
+    box-shadow: 0 0.25rem 0.75rem rgb(30 34 40 / 15%);
+}
+
+footer .list-head {
+    color: #343F52;
+    font-size: 20px;
+}
+
+footer ul li {
+    color: #60697B;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+footer ul li:hover {
+    color: #006aff67;
+}

@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <title>
-      Landing Pages
+     Software Company
    </title>
 </head>
 <? include 'assets/assets.php'; ?>
@@ -30,8 +30,7 @@
          <? include 'modules/contact.php'; ?>
       </content>
    </main>
-   <? //include 'modules/layouts/footer.php'; 
-   ?>
+   <? include 'modules/layouts/footer.php'; ?>
    <div id="closeToggle" style="display: none;"></div>
 
 </body>

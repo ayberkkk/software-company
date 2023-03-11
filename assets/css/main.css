@@ -61,8 +61,6 @@
     --bs-black-rgb: 0, 0, 0;
     --bs-body-color-rgb: 96, 105, 123;
     --bs-body-bg-rgb: 254, 254, 254;
-    --bs-font-sans-serif: "Manrope", sans-serif;
-    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, 0));
     --bs-root-font-size: 20px;
     --bs-body-font-size: 0.8rem;
@@ -103,13 +101,11 @@ ul {
     list-style: none !important;
 }
 
-
 body {
     width: 100%;
     overflow-x: hidden;
     background-color: #f5f5fc !important;
-    font-family: 'Manrope', sans-serif;
-
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 body .content {

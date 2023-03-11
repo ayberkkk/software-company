@@ -20,6 +20,7 @@
 
 #contact .contact-box .contact-content .text {
     padding: 60px;
+    width: 70%;
 }
 
 #contact .contact-box .contact-content h2 {
@@ -39,65 +40,48 @@
     align-items: center;
 }
 
-#contact .input-wrapper {
-    max-width: 360px;
-    width: 100%;
+#contact .form-control {
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .03);
+    border-color: rgba(255, 255, 255, .1);
+    color: #fff !important;
+}
+
+#contact .input-group {
     position: relative;
 }
 
-#contact .input {
-    height: 50px;
-    font-size: 16px;
-    padding: 11px 15px;
-    border-radius: 4px;
-    border: 1px solid #CBD8E3;
-    width: 100%;
-    outline: none;
-    box-sizing: border-box;
+#contact .form-control:focus {
+    box-shadow: none !important;
 }
 
-#contact .placeholder {
-    pointer-events: none;
-    position: absolute;
-    font-weight: 400;
-    top: 18px;
-    left: 8px;
-    padding: 0 8px;
-    background-color: white;
-    border-radius: 5px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: grey;
+#contact .form-control::placeholder {
+    color: #fff !important;
 }
 
-#contact .input:not(:placeholder-shown).input:not(:focus)+.placeholder {
-    transform: scale(.75) translateY(-36px) translateX(-15%);
-    color: #CBD8E3;
-    transition: .2s ease;
+#contact .form-control:focus .floating-label {
+    font-size: 10px;
+    top: 0px;
+    left: 0px;
 }
 
-#contact .input:focus {
-    border-color: #0088ff;
-
+#contact .input-group-text {
+    background: #747ed1;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 
-#contact .input:focus+.placeholder {
-    transform: scale(.75) translateY(-36px) translateX(-15%);
-    color: #0088ff;
-    transition: .2s ease;
-}
-
-#contact .input:invalid:not(:placeholder-shown) {
-    transition: .2s ease;
-    border-color: #F52C5C;
-}
-
-#contact .input:invalid:not(:placeholder-shown)+.placeholder {
-    transition: .2s ease;
-    color: #F52C5C;
-}
-
-#contact .input:invalid:not(:placeholder-shown).input:not(:focus)+.placeholder {
-    transform: scale(.75) translateY(-36px) translateX(-15%);
-    color: #F52C5C;
-    transition: .2s ease;
+@media screen and (max-width:992px){
+    #contact .contact-box .contact-content {
+        display: block;
+    }
+    #contact .contact-box .contact-content .text {
+        padding: 10px;
+        width: initial;
+    }
 }
